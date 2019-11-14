@@ -1,0 +1,13 @@
+$TTL 1D
+@	IN SOA	mail.ialom.com. root.ialom.com. (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+
+@		IN	NS		mail.ialom.com.
+@		IN	A		10.0.0.7
+@		IN	PTR		ialom.com.
+@		IN	PTR		mail.ialom.com.
+250		IN	PTR		mail.ialom.com.
