@@ -13,7 +13,7 @@ if (!$auth->isAuthenticated()) {
     if ($attrs['eduPersonAffiliation'][1] == 'employee') {
         echo "You are logged in";
     } else {
-        header("Location: /");
+        header("Location: /test.php");
     }
 }
 ?>
@@ -30,6 +30,7 @@ if (!$auth->isAuthenticated()) {
 
 <body>
     <h2>Welcome to Office service</h2>
+    <a href="https://sp2.sust.com">Home</a>
     <a href="https://sp2.sust.com/logout.php">Logout</a>
 
 </body>

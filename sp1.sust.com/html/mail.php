@@ -31,6 +31,7 @@ if (!$auth->isAuthenticated()) {
 
 <body>
     <h2>Welcome to Mail service</h2>
+    <a href="https://sp1.sust.com">Home</a>
     <a href="https://sp1.sust.com/logout.php">Logout</a>
 
 </body>
