@@ -1,0 +1,2 @@
+[Sat Apr 11 17:50:10.072682 2020] [autoindex:error] [pid 5953] [client 103.140.83.191:37486] AH01276: Cannot serve directory /var/www/idp.sust.com/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+[Sat Apr 11 17:50:13.574692 2020] [autoindex:error] [pid 5953] [client 103.140.83.191:37486] AH01276: Cannot serve directory /var/www/idp.sust.com/html/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive

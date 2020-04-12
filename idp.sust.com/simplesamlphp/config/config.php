@@ -150,7 +150,7 @@ $config = [
      * Example:
      *   'trusted.url.domains' => ['sp.example.com', 'app.example.com'],
      */
-    'trusted.url.domains' => [],
+    'trusted.url.domains' => ['mail.sust.com', 'sp1.sust.com','sp2.sust.com'],
 
     /*
      * Enable regular expression matching of trusted.url.domains.

@@ -81,19 +81,19 @@ $config = [
         //'remember.username.checked' => false,
 
         'student1:9590' => [
-            'uid' => ['student1@mail.sustmail.com'],
+            'uid' => ['student1@mail.sust.com'],
             'eduPersonAffiliation' => ['member', 'student'],
         ],
 	'student2:9590' => [
-            'uid' => ['student2@mail.sustmail.com'],
+            'uid' => ['student2@mail.sust.com'],
             'eduPersonAffiliation' => ['member', 'student'],
         ],
         'employee1:9590' => [
-            'uid' => ['employee1@mail.sustmail.com'],
+            'uid' => ['employee1@mail.sust.com'],
             'eduPersonAffiliation' => ['member', 'employee'],
         ],
 	'employee2:9590' => [
-            'uid' => ['employee2@mail.sustmail.com'],
+            'uid' => ['employee2@mail.sust.com'],
             'eduPersonAffiliation' => ['member', 'employee'],
         ],
 

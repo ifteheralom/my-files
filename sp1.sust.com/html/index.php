@@ -39,7 +39,7 @@
                         <span class="input-group-text" id="inputGroup-sizing-lg">@</span>
                     </div>
                     <button type="button" class="form-control btn btn-outline-secondary"
-                        onclick="window.location.href = 'https://sp1.sust.com/mail.php';">Mail Service</button>
+                        onclick="window.location.href = 'https://mail.sust.com';">Mail Service</button>
                 </div>
                 <br /><br />
                 <div class="input-group input-group-lg">

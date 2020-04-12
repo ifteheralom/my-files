@@ -1,13 +1,32 @@
-<?php
-/**
- * SAML 2.0 remote SP metadata for SimpleSAMLphp.
- *
- * See: https://simplesamlphp.org/docs/stable/simplesamlphp-reference-sp-remote
- */
 
-/*
- * Example SimpleSAMLphp SAML 2.0 SP
- */
+<?php
+
+$metadata['https://mail.sust.com/service/extension/samlreceiver'] = array (
+  'entityid' => 'https://mail.sust.com/service/extension/samlreceiver',
+  'contacts' => 
+  array (
+  ),
+  'metadata-set' => 'saml20-sp-remote',
+  'AssertionConsumerService' => 
+  array (
+    0 => 
+    array (
+      'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',
+      'Location' => 'https://mail.sust.com/service/extension/samlreceiver',
+      'index' => 0,
+    ),
+  ),
+  'SingleLogoutService' => 
+  array (
+  ),
+  'NameIDFormat' => 'urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress',
+  'simplesaml.nameidattribute' => 'uid',
+  'validate.authnrequest' => false,
+  'certificate' => 'example.org.crt',
+);
+
+
+
 $metadata['https://saml2sp.example.org'] = [
     'AssertionConsumerService' => 'https://saml2sp.example.org/simplesaml/module.php/saml/sp/saml2-acs.php/default-sp',
     'SingleLogoutService' => 'https://saml2sp.example.org/simplesaml/module.php/saml/sp/saml2-logout.php/default-sp',
